@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body{
+
+  background-color: rgb(238, 186, 150);
+  
+}
+.container {
+justify-content: center;
+align-items: center;
+margin-top:15%;
+display: flex;
+  gap: 10px;
+}
+.word {
+  background-color: aliceblue;
+  color: rgb(12, 12, 70);
+  padding: 50px;
+  font-size: 2rem;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: space-between;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.zero{
+
+  padding: 50px;
+  font-size: 2rem;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: space-between;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+
+}
+
+.butonlar{
+ justify-content: center;
+ align-items: center;
+ display: flex;
+ padding: 25px;
+ gap:5rem;
+ border-radius: 20px;
+}
+
+.decrease {
+ padding: 15px;
+ cursor: pointer;
+ border-radius: 20px;
+ 
+
+}
+
+.increase {
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 20px;
+
+}
+
+.reset{
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.name{
+  color: rgb(150, 32, 32);
+  font-size: 15px;
+  font-style: italic;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  
+}
